@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="brain.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+
+    <h1>MUHAMMAD<BR/>
+    RASHID</h1>
+    <!-- calculator outside -->
+    <div id="box">
+        <!-- calculator display box -->
+    <input id="input" type="text">
+        <!-- calculator buttons -->
+<div class="button">
+    <button id="addition"class="btn operator" onclick="show('+')">+</button>
+    <button  id="substraction" class="btn operator" onclick="show('-')">-</button>
+    <button  id="multiplication" class="btn operator" onclick="show('*')">*</button>
+    <button id="division"class="btn operator" onclick="show('/')">/</button>
+</div>
+
+<button id="a" class="btn" onclick="solve()">=</button>
+
+<div class="button">
+    <button class="btn" onclick="show(7)">7</button>
+    <button class="btn" onclick="show(8)">8</button>
+    <button class="btn" onclick="show(9)">9</button>
+    
+</div>
+
+<div class="button">
+    <button class="btn" onclick="show(4)">4</button>
+    <button class="btn" onclick="show(5)">5</button>
+    <button class="btn" onclick="show(6)">6</button>
+</div>
+
+
+
+<div class="button">
+    <button class="btn" onclick="show(1)">1</button>
+    <button class="btn" onclick="show(2)">2</button>
+    <button class="btn" onclick="show(3)">3</button>
+</div>
+
+
+<div class="button">
+    <button class="btn" onclick="show(0)">0</button>
+    <button class="btn" onclick="show('.')">.</button>
+    <button id="c"class="btn" onclick="clr()">C</button>
+</div>
+
+    </div>
+
+
+    <!-- <script src="brain.js"></script> -->
+</body>
+</html>
